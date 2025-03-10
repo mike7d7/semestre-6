@@ -1,7 +1,7 @@
 #set text(lang: "es", )
 #set page(
   paper: "us-letter",
-  
+
   header: place(top+left, float: true, dx: -10em, dy: -1em)[
       #image("logo.png", height: 250%, fit: "contain")
   ],
@@ -20,27 +20,24 @@
   justify: true,
 )
 #align(center)[
-  = REQUISITOS DE DESARROLLO DE SOFTWARE
+  = REQUISITOS DE DESARROLLO DE LA APP "FUNDADORES"
   \
 ]
 #align(right)[
   #datetime.today().display()
 ]
 \
+#let fecha_entrega_fotos = "Fecha definida por maestra Abigail"
 #set heading(numbering: "1.")
 = Introducción
-== Propósito
-Este documento se escribe para definir los requisitos del proyecto de desarrollo de software para garantizar, a su vez, que todas las partes interesadas tengan una comprensión clara de lo que se va a desarrollar.
 
-== Alcance del proyecto
-El presente proyecto tiene como objetivo el desarrollo de una aplicación móvil para dispositivos Android, que permita generar conciencia sobre la gestión de residuos en nuestra comunidad. El alcance del proyecto incluye las siguientes entregas:
-- Aplicación de Android (archivo .apk).
-- Código fuente.
-- Manual de usuario.
-- Manual técnico.
+== Objetivos
+Objetivo de la empresa: Promover el reciclaje y el cuidado del medio ambiente a través de la venta de productos reciclados, fomentando una cultura sostenible y reduciendo el impacto ecológico de los desechos.
+
+Objetivo de la aplicación: Generar conciencia sobre el impacto del reciclaje, para ayudar a conectar a los usuarios con puntos de reciclaje y facilitar la compra de los productos que se encuentran en la aplicación.
 
 == Descripción General
-La aplicación de Android consistirá en múltiples ventanas (definidas más específicamente en la sección 2. Interfaces) las cuales deberán mostrar información referente al tema del reciclaje y la reutilización de residuos en el plantel CBTis No. 118.
+La aplicación de Android consistirá en 3 ventanas (definidas más específicamente en la sección 3. Interfaces) las cuales deberán mostrar información referente al tema del reciclaje y la reutilización de residuos en el plantel CBTis No. 118.
 
 = Requerimientos Funcionales
 - Los usuarios deberán poder visualizar la información independientemente de su conexión a internet.
@@ -64,12 +61,27 @@ La aplicación de Android consistirá en múltiples ventanas (definidas más esp
   radius: 2pt,
 )[#rect(width: 7pt, height: 7pt, fill: rgb(color), radius: 1.5pt)]]
 
-- Los fondos deberán ser color #color_block("#292a2d")
-- El color de resaltado principal deberá ser #color_block("#225577")
-- El texto deberá ser color #color_block("#d2d2d2")
+- Los fondos deberán ser color #color_block("#46db29")
+- El color de resaltado principal deberá ser #color_block("#46db29")
+- El texto deberá ser color #color_block("#000000")
+- El color del fondo del menú superior deberá ser de color #color_block("#ffffff")
+
+=== Ventana 1 (Pantalla de inicio)
+- En la parte superior el Titulo “Inicio”
+- Incluir información educativa sobre el impacto del reciclaje.
+- La información debe ir centrada.
+- La información debe ir acompañada de imágenes
+
+=== Ventana 2 (Catálogo)
+- En la parte superior el Titulo “Catálogo”
+- Se puede visualizar los productos con imágenes
+- Las imágenes serán entregadas antes del
+- Los productos están acompañados de una descripción
+- Los productos están acompañados del precio
+
+=== Ventana 3 (Contacto)
+- Mostrar los números de celular de los creadores de los productos para la compra de productos en plataformas externas.
+- Mostrar créditos a ambas empresas.
 
 = Requerimientos no funcionales
-- La aplicación deberá cumplir todas las regulaciones para ser publicada en la Google Play Store.
-- La aplicación deberá mostrar la primera página informativa en menos de un segundo a partir de que el usuario inicie la aplicación.
-- La aplicación deberá ser compatible con Android 10 y posteriores.
-- El código fuente deberá tener comentarios que expliquen la función del código.
+- La aplicación deberá ser compatible con dispositivos que utilicen el sistema operativo Android.
