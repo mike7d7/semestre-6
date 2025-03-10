@@ -1,7 +1,7 @@
 #set text(lang: "es", )
 #set page(
   paper: "us-letter",
-  
+
   header: place(top+left, float: true, dx: -10em, dy: -1em)[
       #image("logo.png", height: 250%, fit: "contain")
   ],
@@ -28,7 +28,7 @@
 ]
 \
 
-En relación a la prestación de servicios de desarrollo de software, se encuentra por una parte "AlphaDev LLC." quien será denominado en adelante como "El desarrollador" y por otra parte "Fundadores de Charco Blanco" quien de ahora en adelante será identificado como "El cliente".
+En relación a la prestación de servicios de desarrollo de software, se encuentra por una parte "AlphaDev LLC." quien será denominado en adelante como "El desarrollador" y por otra parte "Fundadores" quien de ahora en adelante será identificado como "El cliente".
 \
 \
 Objetivo: Este contrato se escribe para quedar cómo acuerdo formal entre "El desarrollador" y "El cliente" sobre las cláusulas, términos y condiciones descritas a continuación, para el desarrollo de la aplicación.
@@ -83,6 +83,32 @@ Objetivo: Este contrato se escribe para quedar cómo acuerdo formal entre "El de
 + Luego de que se hayan notificado los problemas que tengan los entregables "El desarrollador" tendrá 5 días para darle solución a la anomalía.
 + "El desarrollador" se compromete a mantener la información que le ha sido suministrada según lo expuesto a continuación:
 + En caso de incumplimiento de cualquiera de las clausulas establecidas en este contrato, la parte responsable del incumplimiento deberá pagar una penalización equivalente.
++ Está de acuerdo "El cliente" con no recibir reembolsos ni compensaciones.
++ Los servicios descritos a continuación no están incluidos en el desarrollo del software:
+  - Diseño de interfaz.
+  - Información mostrada en aplicación.
+  - Recursos gráficos que se usarán en la aplicación.
+
++ "El desarrollador" no será responsable por cualquier daño o perjuicio causado por el uso indebido del software por parte del cliente o terceros. "El cliente" acepta que es su responsabilidad asegurar que el software sea utilizado de acuerdo con las especificaciones y recomendaciones proporcionadas.
++ "El cliente" reconoce que el software puede incluir componentes de terceros sujetos a licencias específicas. "El desarrollador" no será responsable de los gastos y/o restricciones de estos componentes y tendrá la obligación de notificar a "El cliente" que serán necesarios los componentes para el desarrollo de la app.
++ "El cliente" indemnizará y eximirá de responsabilidad a "el desarrollador" por cualquier reclamo, demanda o gasto derivado del uso del software, incluyendo, pero no limitado a, violaciones de propiedad intelectual, uso indebido o integración con sistemas de terceros.
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
 \
 \
 \
@@ -102,17 +128,20 @@ Objetivo: Este contrato se escribe para quedar cómo acuerdo formal entre "El de
   align(center)[
     #line(stroke: (paint: black, thickness: 1pt))
     Firma Cliente \
-    Fundadores de Charco Blanco
+    Fundadores
   ]
 )
 \
 \
 \
 \
-/*
+\
+\
+\
+\
+
 #align(center)[
-  #datetime.today(offset: -6).display()
+  // #datetime.today(offset: -6).display()
   #line(length: 30%)
   Fecha de Firmado
 ]
-*/
