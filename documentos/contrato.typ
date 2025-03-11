@@ -3,7 +3,7 @@
   paper: "us-letter",
 
   header: place(top+left, float: true, dx: -10em, dy: -1em)[
-      #image("logo.png", height: 250%, fit: "contain")
+      #image("../logo.png", height: 250%, fit: "contain")
   ],
   footer: grid(
     columns: (1fr, 1fr),
