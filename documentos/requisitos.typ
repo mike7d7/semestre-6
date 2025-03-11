@@ -39,16 +39,16 @@ Objetivo de la aplicación: Generar conciencia sobre el impacto del reciclaje, p
 La aplicación de Android consistirá en 3 ventanas (definidas más específicamente en la sección 3. Interfaces) las cuales deberán mostrar información referente al tema del reciclaje y la reutilización de residuos en el plantel CBTis No. 118.
 
 = Requerimientos Funcionales
-- Los usuarios deberán poder moverse entre ventanas fácilmente.
-- Los usuarios deberán poder visualizar imágenes referentes al tema para mejorar su comprensión.
-- Los usuarios deberán poder copiar texto de la aplicación al portapapeles del sistema.
+- Los usuarios deberán poder moverse entre ventanas fácilmente (Todas las ventanas).
+- Los usuarios deberán poder copiar texto de la aplicación al portapapeles del sistema (Todas las ventanas).
+- Los usuarios deberán poder visualizar imágenes referentes al tema para mejorar su comprensión (Ventanas 1 y 2).
 
 = Interfaz Gráfica
-== Interfaz de Usuario
+== Objetos Globales (importados en todas las ventanas)
+=== Menú Superior
 - La aplicación deberá tener un menú fijo en la parte superior, en el cual todas las ventanas sean accesibles.
-- La aplicación deberá tener 3 ventanas: la página de inicio, el catálago de productos y la página de contacto.
 
-== Colores
+=== Colores
 #let color_block(color) = [#color #box(
   fill: luma(255),
   inset: (x: 3pt, y: 0pt),
@@ -62,16 +62,18 @@ La aplicación de Android consistirá en 3 ventanas (definidas más específicam
 - El texto normal (párrafos, información, no títulos) deberá ser color #color_block("#000000").
 - El color del fondo del menú superior deberá ser de color #color_block("#ffffff").
 
+== Ventanas
+- La aplicación deberá tener 3 ventanas: la página de inicio, el catálago de productos y la página de contacto.
 === Ventana 1 - Pantalla de inicio
-- Título “Inicio”, en el centro de la parte superior.
+- Título "Inicio", en el centro de la parte superior.
 - Incluir información educativa sobre el impacto del reciclaje (Va a ser enviada antes del #fecha_entrega).
 - El texto informativo debe de ir centrado.
 - La información debe ir acompañada de imágenes, las cuales van a ser enviadas antes del #fecha_entrega.
 
 === Ventana 2 - Catálogo
-- Título “Catálogo”, en el centro de la parte superior.
+- Título "Catálogo", en el centro de la parte superior.
 - Se deben visualizar los 6 productos con 1 imágen por producto.
-- Las imágenes serán entregadas antes del #fecha_entrega.
+// - Las imágenes serán entregadas antes del #fecha_entrega.
 - Los productos están acompañados de una descripción, la cual va a ser enviada entes del #fecha_entrega.
 - Cada producto tendrá un precio, el cuál será mostrado en una tarjeta, del lado superior derecho.
 - El nombre del producto se posicionará del lado superior izquierdo de la tarjeta.
@@ -83,6 +85,3 @@ La aplicación de Android consistirá en 3 ventanas (definidas más específicam
 - En la página se mostrarán 6 tarjetas con información de contacto (número telefónico) sobre cada producto.
 - Cada tarjeta llevará el nombre del producto y el número de teléfono proporcionado.
 - Las tarjetas deberán estar centradas en el eje vertical.
-
-= Requerimientos no funcionales
-- La aplicación deberá ser compatible con dispositivos que utilicen el sistema operativo Android.
