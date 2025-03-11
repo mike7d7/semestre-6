@@ -27,7 +27,6 @@
   #datetime.today().display()
 ]
 \
-#let fecha_entrega_fotos = "Fecha definida por maestra Abigail"
 #set heading(numbering: "1.")
 = Introducción
 
@@ -40,18 +39,14 @@ Objetivo de la aplicación: Generar conciencia sobre el impacto del reciclaje, p
 La aplicación de Android consistirá en 3 ventanas (definidas más específicamente en la sección 3. Interfaces) las cuales deberán mostrar información referente al tema del reciclaje y la reutilización de residuos en el plantel CBTis No. 118.
 
 = Requerimientos Funcionales
-- Los usuarios deberán poder visualizar la información independientemente de su conexión a internet.
 - Los usuarios deberán poder moverse entre ventanas fácilmente.
 - Los usuarios deberán poder visualizar imágenes referentes al tema para mejorar su comprensión.
 - Los usuarios deberán poder copiar texto de la aplicación al portapapeles del sistema.
 
-
 = Interfaz Gráfica
 == Interfaz de Usuario
-- La aplicación deberá tener un menú fijo en la parte de abajo en el cual todas las ventanas sean accesibles.
-- La aplicación deberá tener 3 ventanas: la página de inicio, la página de información y la página de bibliografía.
-
-// TODO: == Diagramas de Interfaz de Usuario
+- La aplicación deberá tener un menú fijo en la parte superior, en el cual todas las ventanas sean accesibles.
+- La aplicación deberá tener 3 ventanas: la página de inicio, el catálago de productos y la página de contacto.
 
 == Colores
 #let color_block(color) = [#color #box(
@@ -59,29 +54,35 @@ La aplicación de Android consistirá en 3 ventanas (definidas más específicam
   inset: (x: 3pt, y: 0pt),
   outset: (y: 3pt),
   radius: 2pt,
-)[#rect(width: 7pt, height: 7pt, fill: rgb(color), radius: 1.5pt)]]
+)[#rect(width: 7pt, height: 7pt, stroke: rgb("#000000"), fill: rgb(color), radius: 1.5pt)]]
+#let fecha_entrega = "fecha desconocida"
 
-- Los fondos deberán ser color #color_block("#46db29")
-- El color de resaltado principal deberá ser #color_block("#46db29")
-- El texto deberá ser color #color_block("#000000")
-- El color del fondo del menú superior deberá ser de color #color_block("#ffffff")
+- Los fondos deberán ser color #color_block("#ECF4E9"), a excepción de la ventana 3.
+- El color de resaltado principal deberá ser #color_block("#46db29") (color de íconos en menú, de bordes, etc.).
+- El texto normal (párrafos, información, no títulos) deberá ser color #color_block("#000000").
+- El color del fondo del menú superior deberá ser de color #color_block("#ffffff").
 
-=== Ventana 1 (Pantalla de inicio)
-- En la parte superior el Titulo “Inicio”
-- Incluir información educativa sobre el impacto del reciclaje.
-- La información debe ir centrada.
-- La información debe ir acompañada de imágenes
+=== Ventana 1 - Pantalla de inicio
+- Título “Inicio”, en el centro de la parte superior.
+- Incluir información educativa sobre el impacto del reciclaje (Va a ser enviada antes del #fecha_entrega).
+- El texto informativo debe de ir centrado.
+- La información debe ir acompañada de imágenes, las cuales van a ser enviadas antes del #fecha_entrega.
 
-=== Ventana 2 (Catálogo)
-- En la parte superior el Titulo “Catálogo”
-- Se puede visualizar los productos con imágenes
-- Las imágenes serán entregadas antes del
-- Los productos están acompañados de una descripción
-- Los productos están acompañados del precio
+=== Ventana 2 - Catálogo
+- Título “Catálogo”, en el centro de la parte superior.
+- Se deben visualizar los 6 productos con 1 imágen por producto.
+- Las imágenes serán entregadas antes del #fecha_entrega.
+- Los productos están acompañados de una descripción, la cual va a ser enviada entes del #fecha_entrega.
+- Cada producto tendrá un precio, el cuál será mostrado en una tarjeta, del lado superior derecho.
+- El nombre del producto se posicionará del lado superior izquierdo de la tarjeta.
 
-=== Ventana 3 (Contacto)
-- Mostrar los números de celular de los creadores de los productos para la compra de productos en plataformas externas.
-- Mostrar créditos a ambas empresas.
+=== Ventana 3 - Contacto
+- Título "Contacto", en el centro de la parte superior.
+- Única ventana en la cual se usara el color #color_block("#ffffff") como color de fondo.
+- Las tarjetas deberán de ser color #color_block("#ECF4E9")
+- En la página se mostrarán 6 tarjetas con información de contacto (número telefónico) sobre cada producto.
+- Cada tarjeta llevará el nombre del producto y el número de teléfono proporcionado.
+- Las tarjetas deberán estar centradas en el eje vertical.
 
 = Requerimientos no funcionales
 - La aplicación deberá ser compatible con dispositivos que utilicen el sistema operativo Android.
