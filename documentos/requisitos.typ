@@ -1,9 +1,9 @@
-#set text(lang: "es", )
+#set text(lang: "es")
 #set page(
   paper: "us-letter",
 
-  header: place(top+left, float: true, dx: -10em, dy: -1em)[
-      #image("../logo.png", height: 250%, fit: "contain")
+  header: place(top + left, float: true, dx: -10em, dy: -1em)[
+    #image("../logo.png", height: 250%, fit: "contain")
   ],
   footer: grid(
     columns: (1fr, 1fr),
@@ -16,9 +16,7 @@
   ),
   numbering: "1",
 )
-#set par(
-  justify: true,
-)
+#set par(justify: true)
 #align(center)[
   = REQUISITOS DE DESARROLLO DE LA APP "FUNDADORES"
   \
@@ -51,11 +49,11 @@ El menú fijo deberá mostrar íconos presionables para diferencias las tres ven
 
 === Colores
 #let color_block(color) = [#color #box(
-  fill: luma(255),
-  inset: (x: 3pt, y: 0pt),
-  outset: (y: 3pt),
-  radius: 2pt,
-)[#rect(width: 7pt, height: 7pt, stroke: rgb("#000000"), fill: rgb(color), radius: 1.5pt)]]
+    fill: luma(255),
+    inset: (x: 3pt, y: 0pt),
+    outset: (y: 3pt),
+    radius: 2pt,
+  )[#rect(width: 7pt, height: 7pt, stroke: rgb("#000000"), fill: rgb(color), radius: 1.5pt)]]
 #let fecha_entrega = "fecha desconocida"
 
 - Los fondos deberán ser color #color_block("#ECF4E9"), a excepción de la ventana 3.

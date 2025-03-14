@@ -1,9 +1,9 @@
-#set text(lang: "es", )
+#set text(lang: "es")
 #set page(
   paper: "us-letter",
 
-  header: place(top+left, float: true, dx: -10em, dy: -1em)[
-      #image("../logo.png", height: 250%, fit: "contain")
+  header: place(top + left, float: true, dx: -10em, dy: -1em)[
+    #image("../logo.png", height: 250%, fit: "contain")
   ],
   footer: grid(
     columns: (1fr, 1fr),
@@ -16,9 +16,7 @@
   ),
   numbering: "1",
 )
-#set par(
-  justify: true,
-)
+#set par(justify: true)
 #align(center)[
   = ANÁLISIS DE FACTIBILIDAD DEL DESARROLLO DE LA APP "FUNDADORES"
   \
@@ -54,7 +52,7 @@ A continuación, se realiza un análisis de factibilidad para cada uno de los re
 - Económico: Factible. No implica costos adicionales.
 
 = Interfaz Gráfica
-==  Menú Superior
+== Menú Superior
 El menú fijo deberá mostrar íconos presionables para diferencias las tres ventanas, y al ser presionados, deberán enviar al usuario a la ventana correspondiente. \ \
 - Tiempo: Factible. Implementar un menú superior fijo es una tarea sencilla.
 - Software: Factible. Se puede implementar en Android Studio.

@@ -1,9 +1,9 @@
-#set text(lang: "es", )
+#set text(lang: "es")
 #set page(
   paper: "us-letter",
 
-  header: place(top+left, float: true, dx: -10em, dy: -1em)[
-      #image("../logo.png", height: 250%, fit: "contain")
+  header: place(top + left, float: true, dx: -10em, dy: -1em)[
+    #image("../logo.png", height: 250%, fit: "contain")
   ],
   footer: grid(
     columns: (1fr, 1fr),
@@ -16,9 +16,7 @@
   ),
   numbering: "1",
 )
-#set par(
-  justify: true,
-)
+#set par(justify: true)
 #align(center)[
   = CONTRATO DE DESARROLLO DE SOFTWARE
   \
@@ -129,7 +127,7 @@ Objetivo: Este contrato se escribe para quedar cómo acuerdo formal entre "El de
     #line(stroke: (paint: black, thickness: 1pt))
     Firma Cliente \
     Fundadores
-  ]
+  ],
 )
 \
 \
