@@ -66,15 +66,15 @@ La aplicación de Android consistirá en 3 ventanas (definidas más específicam
 - La aplicación deberá tener 3 ventanas: la página de inicio, el catálago de productos y la página de contacto.
 === Ventana 1 - Pantalla de inicio
 - Título "Inicio", en el centro de la parte superior.
-- Incluir información educativa sobre el impacto del reciclaje (Va a ser enviada antes del #fecha_entrega).
+- Incluir información educativa sobre el impacto del reciclaje.
 - El texto informativo debe de ir centrado.
-- La información debe ir acompañada de imágenes, las cuales van a ser enviadas antes del #fecha_entrega.
+- La información debe ir acompañada de imágenes.
 
 === Ventana 2 - Catálogo
 - Título "Catálogo", en el centro de la parte superior.
 - Se deben visualizar los 6 productos con 1 imágen por producto.
 // - Las imágenes serán entregadas antes del #fecha_entrega.
-- Los productos están acompañados de una descripción, la cual va a ser enviada entes del #fecha_entrega.
+- Los productos están acompañados de una descripción.
 - Cada producto tendrá un precio, el cuál será mostrado en una tarjeta, del lado superior derecho.
 - El nombre del producto se posicionará del lado superior izquierdo de la tarjeta.
 
