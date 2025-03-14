@@ -55,6 +55,7 @@ A continuación, se realiza un análisis de factibilidad para cada uno de los re
 
 = Interfaz Gráfica
 ==  Menú Superior
+El menú fijo deberá mostrar íconos presionables para diferencias las tres ventanas, y al ser presionados, deberán enviar al usuario a la ventana correspondiente. \ \
 - Tiempo: Factible. Implementar un menú superior fijo es una tarea sencilla.
 - Software: Factible. Se puede implementar en Android Studio.
 - Hardware: Factible. No se requieren recursos adicionales de hardware.
@@ -69,6 +70,7 @@ A continuación, se realiza un análisis de factibilidad para cada uno de los re
 - Económico: Factible. No implica costos adicionales.
 
 == Ventana 1 - Pantalla de inicio
+En esta ventana se mostrará información relacionada con el medio ambiente, el reciclaje, y la empresa. Deberá llevar mucho texto y algunas imágenes. \ \
 - Tiempo: Factible. La implementación de una pantalla con texto e imágenes no tardará demasiado.
 - Software: Factible. Se puede implementar con TextView e ImageView en Android Studio.
 - Hardware: Factible. No se requieren recursos adicionales de hardware.
@@ -76,13 +78,15 @@ A continuación, se realiza un análisis de factibilidad para cada uno de los re
 - Económico: Factible. No implica costos adicionales.
 
 == Ventana 2 - Catálogo
-Tiempo: Factible. La implementación de un catálogo con imágenes y descripciones es factible, sin embargo, requiere algo de tiempo para implementar el diseño de las tarjetas.
-Software: Factible. Se puede implementar con GridView en Android Studio.
-Hardware: Factible. No se requieren recursos adicionales de hardware.
-Conocimiento: Factible. Requiere conocimiento que todavía no tenemos, sin embargo, no será demasiado complicado adquirirlo.
-Económico: Factible. No implica costos adicionales.
+En esta ventana se mostrarán los productos con su descripción y su imágen. \ \
+- Tiempo: Factible. La implementación de un catálogo con imágenes y descripciones es factible, sin embargo, requiere algo de tiempo para implementar el diseño de las tarjetas.
+- Software: Factible. Se puede implementar con GridView en Android Studio.
+- Hardware: Factible. No se requieren recursos adicionales de hardware.
+- Conocimiento: Factible. Requiere conocimiento que todavía no tenemos, sin embargo, no será demasiado complicado adquirirlo.
+- Económico: Factible. No implica costos adicionales.
 
 == Ventana 3 - Contacto
+En esta ventana se mostrarán tarjetas con el nombre de los productos y el número telefónico del vendedor del producto. \ \
 - Tiempo: Factible. La implementación de tarjetas con información de contacto es sencilla y rápida.
 - Software: Factible. Se puede implementar en Android Studio.
 - Hardware: Factible. No se requieren recursos adicionales de hardware.

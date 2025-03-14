@@ -46,6 +46,7 @@ La aplicación de Android consistirá en 3 ventanas (definidas más específicam
 = Interfaz Gráfica
 == Objetos Globales (importados en todas las ventanas)
 === Menú Superior
+El menú fijo deberá mostrar íconos presionables para diferencias las tres ventanas, y al ser presionados, deberán enviar al usuario a la ventana correspondiente. \ \
 - La aplicación deberá tener un menú fijo en la parte superior, en el cual todas las ventanas sean accesibles.
 
 === Colores
@@ -65,12 +66,14 @@ La aplicación de Android consistirá en 3 ventanas (definidas más específicam
 == Ventanas
 - La aplicación deberá tener 3 ventanas: la página de inicio, el catálago de productos y la página de contacto.
 === Ventana 1 - Pantalla de inicio
+En esta ventana se mostrará información relacionada con el medio ambiente, el reciclaje, y la empresa. Deberá llevar mucho texto y algunas imágenes. \ \
 - Título "Inicio", en el centro de la parte superior.
 - Incluir información educativa sobre el impacto del reciclaje.
 - El texto informativo debe de ir centrado.
 - La información debe ir acompañada de imágenes.
 
 === Ventana 2 - Catálogo
+En esta ventana se mostrarán los productos con su descripción y su imágen. \ \
 - Título "Catálogo", en el centro de la parte superior.
 - Se deben visualizar los 6 productos con 1 imágen por producto.
 // - Las imágenes serán entregadas antes del #fecha_entrega.
@@ -79,6 +82,7 @@ La aplicación de Android consistirá en 3 ventanas (definidas más específicam
 - El nombre del producto se posicionará del lado superior izquierdo de la tarjeta.
 
 === Ventana 3 - Contacto
+En esta ventana se mostrarán tarjetas con el nombre de los productos y el número telefónico del vendedor del producto. \ \
 - Título "Contacto", en el centro de la parte superior.
 - Única ventana en la cual se usara el color #color_block("#ffffff") como color de fondo.
 - Las tarjetas deberán de ser color #color_block("#ECF4E9")
