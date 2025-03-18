@@ -28,12 +28,8 @@
 #set heading(numbering: "1.")
 = Introducción
 
-== Objetivos
-Se mantiene el objetivo de la empresa y la aplicación, pero se añade el enfoque en la funcionalidad de compra-venta para fortalecer la accesibilidad de los productos reciclados.
-
-
-== Descripción General
-Se amplía la aplicación para incluir 4 ventanas en lugar de 3. Se añade una ventana específica para la compra y venta de productos.
+== Objetivos del Documento
+Este documento tiene como objetivo detallar las modificaciones y añadidos a los requerimientos originales de la aplicación, incorporando la funcionalidad de compra-venta de productos. Se especifican los cambios en los requerimientos funcionales y en la interfaz gráfica, asegurando que la aplicación permita a los usuarios gestionar compras de manera efectiva.
 
 = Requerimientos Funcionales
 - Se añade la funcionalidad de compra-venta de productos en la aplicación.
@@ -47,24 +43,22 @@ Se amplía la aplicación para incluir 4 ventanas en lugar de 3. Se añade una v
 === Menú Superior
 El menú deberá actualizarse para incluir la nueva ventana de compra-venta.
 
-=== Colores
-Se mantiene la paleta de colores establecida.
-
 == Ventanas
-
-=== Ventana 1 - Pantalla de inicio
-Se mantiene sin cambios.
 
 === Ventana 2 - Catálogo
 - Se incorpora la opción de agregar productos al carrito.
 
-=== Ventana 3 - Contacto
-Se mantiene sin cambios.
-
 === Ventana 4 - Compra y Venta
+
+La ventana permitirá a los usuarios visualizar de manera organizada los productos seleccionados, con opciones para modificar la cantidad o eliminar productos antes de confirmar la compra.
+
 - Título "Compra y Venta", en el centro de la parte superior.
 
-- Se mostrarán los productos añadidos al carrito con su respectiva descripción e imagen, y precio para posteriormente mostrar un resumen del total.
+- Se mostrarán los productos añadidos al carrito con su respectiva descripción, imagen y precio, para posteriormente mostrar un resumen del total.
 
 - Se incluirá un botón de confirmación de compra.
+
+
+- Se proporcionará un resumen final del pedido antes de la confirmación, mostrando el precio total y un mensaje de validación de compra.
+
 
