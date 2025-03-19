@@ -3,7 +3,7 @@
   paper: "us-letter",
 
   header: place(top + left, float: true, dx: -10em, dy: -1em)[
-    #image("logo.png", height: 250%, fit: "contain")
+    #image("../logo.png", height: 250%, fit: "contain")
   ],
   footer: grid(
     columns: (1fr, 1fr),
@@ -33,9 +33,7 @@ Este documento tiene como objetivo detallar las modificaciones y añadidos a los
 
 = Requerimientos Funcionales
 - Se añade la funcionalidad de compra-venta de productos en la aplicación.
-
 - Se deberá permitir a los usuarios agregar productos al carrito de compras y visualizar el total acumulado.
-
 - Se deberá permitir realizar pedidos con confirmación de compra.
 
 = Interfaz Gráfica
@@ -49,16 +47,8 @@ El menú deberá actualizarse para incluir la nueva ventana de compra-venta.
 - Se incorpora la opción de agregar productos al carrito.
 
 === Ventana 4 - Compra y Venta
-
-La ventana permitirá a los usuarios visualizar de manera organizada los productos seleccionados, con opciones para modificar la cantidad o eliminar productos antes de confirmar la compra.
-
+La ventana permitirá a los usuarios visualizar de manera organizada los productos seleccionados, con opciones para modificar la cantidad o eliminar productos antes de confirmar la compra. \ \
 - Título "Compra y Venta", en el centro de la parte superior.
-
 - Se mostrarán los productos añadidos al carrito con su respectiva descripción, imagen y precio, para posteriormente mostrar un resumen del total.
-
 - Se incluirá un botón de confirmación de compra.
-
-
 - Se proporcionará un resumen final del pedido antes de la confirmación, mostrando el precio total y un mensaje de validación de compra.
-
-

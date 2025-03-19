@@ -78,6 +78,8 @@ En esta ventana se mostrarán los productos con su descripción y su imágen. \ 
 - Los productos están acompañados de una descripción.
 - Cada producto tendrá un precio, el cuál será mostrado en una tarjeta, del lado superior derecho.
 - El nombre del producto se posicionará del lado superior izquierdo de la tarjeta.
+- Deberá tener un botón para agregar productos a la ventana "carrito" (Modificación del día 18/03/25, de común acuerdo con el cliente -> Ver anexo "documento").
+- El Botón deberá ser de color #color_block("#46db29") (Modificación del día 18/03/25, de común acuerdo con el cliente -> Ver anexo "documento").
 
 === Ventana 3 - Contacto
 En esta ventana se mostrarán tarjetas con el nombre de los productos y el número telefónico del vendedor del producto. \ \
@@ -87,3 +89,11 @@ En esta ventana se mostrarán tarjetas con el nombre de los productos y el núme
 - En la página se mostrarán 6 tarjetas con información de contacto (número telefónico) sobre cada producto.
 - Cada tarjeta llevará el nombre del producto y el número de teléfono proporcionado.
 - Las tarjetas deberán estar centradas en el eje vertical.
+
+=== Ventana 4 - Compra y Venta
+(Ventana adicionada el día 18/03/25, incluye los siguientes requisitos. Esto ha sido de común acuerdo con el cliente -> Ver anexo "documento"). \ \
+La ventana permitirá a los usuarios visualizar de manera organizada los productos seleccionados, con opciones para modificar la cantidad o eliminar productos antes de confirmar la compra. \ \
+- Título "Compra y Venta", en el centro de la parte superior.
+- Se mostrarán los productos añadidos al carrito con su respectiva descripción, imagen y precio, para posteriormente mostrar un resumen del total.
+- Se incluirá un botón de confirmación de compra.
+- Se proporcionará un resumen final del pedido antes de la confirmación, mostrando el precio total y un mensaje de validación de compra.
