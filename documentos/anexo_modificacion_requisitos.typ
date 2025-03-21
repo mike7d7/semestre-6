@@ -18,7 +18,7 @@
 )
 #set par(justify: true)
 #align(center)[
-  = MODIFICACIONES Y AÑADIDOS A LOS REQUERIMENTOS DE DESARROLLO DE LA APP "FUNDADORES"
+  = ANEXO A LOS REQUERIMENTOS DE DESARROLLO DE LA APP "FUNDADORES"
   \
 ]
 #align(right)[
@@ -46,9 +46,9 @@ El menú deberá actualizarse para incluir la nueva ventana de compra-venta.
 === Ventana 2 - Catálogo
 - Se incorpora la opción de agregar productos al carrito.
 
-=== Ventana 4 - Compra y Venta
+=== Ventana 4 - Carrito
 La ventana permitirá a los usuarios visualizar de manera organizada los productos seleccionados, con opciones para modificar la cantidad o eliminar productos antes de confirmar la compra. \ \
-- Título "Compra y Venta", en el centro de la parte superior.
+- Título "Carrito", en el centro de la parte superior.
 - Se mostrarán los productos añadidos al carrito con su respectiva descripción, imagen y precio, para posteriormente mostrar un resumen del total.
 - Se incluirá un botón de confirmación de compra.
 - Se proporcionará un resumen final del pedido antes de la confirmación, mostrando el precio total y un mensaje de validación de compra.

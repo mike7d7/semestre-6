@@ -93,3 +93,7 @@ En esta ventana se mostrarán tarjetas con el nombre de los productos y el núme
 
 = Conclusión
 El proyecto es factible en términos de tiempo, software, hardware, conocimiento y económico, en base a los recursos con los cuales cuenta la empresa actualmente. La mayoría de los requisitos no presentan grandes desafíos técnicos, sin embargo, es importante asegurarse de que el equipo cuente con el conocimiento necesario para las tareas más complicadas, en caso contrario será necesario ajustar los tiempos para incluir la investigación y capacitación necesaria.
+#show link: set text(fill: blue)
+#show link: underline
+
+#link("./Modificacion_Factibilidad.pdf")[Ver anexo] "ANEXO AL ANÁLISIS DE FACTIBILIDAD DEL DESARROLLO DE LA APP \"FUNDADORES\"").

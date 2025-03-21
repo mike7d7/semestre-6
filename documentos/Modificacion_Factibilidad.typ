@@ -3,7 +3,7 @@
   paper: "us-letter",
 
   header: place(top + left, float: true, dx: -10em, dy: -1em)[
-    #image("logo.png", height: 250%, fit: "contain")
+    #image("../logo.png", height: 250%, fit: "contain")
   ],
   footer: grid(
     columns: (1fr, 1fr),
@@ -18,7 +18,7 @@
 )
 #set par(justify: true)
 #align(center)[
-  = ANÁLISIS DE FACTIBILIDAD A MODIFICACIONES Y AÑADIDOS DEL DESARROLLO DE LA APP "FUNDADORES"
+  = ANEXO AL ANÁLISIS DE FACTIBILIDAD DEL DESARROLLO DE LA APP "FUNDADORES"
   \
 ]
 #align(right)[
@@ -93,7 +93,7 @@ Se incorpora la opción de agregar productos al carrito.
 
 - Económico: Factible. No implica costos adicionales.
 
-== Ventana 4 - Compra y Venta
+== Ventana 4 - Carrito
 Esta ventana permitirá a los usuarios visualizar de manera organizada los productos seleccionados, con opciones para modificar la cantidad o eliminar productos antes de confirmar la compra.
 
 - Tiempo: Factible. La implementación de una lista de productos seleccionados con opciones de edición es viable dentro del tiempo estimado.
@@ -110,4 +110,3 @@ Esta ventana permitirá a los usuarios visualizar de manera organizada los produ
 
 = Conclusión
 Las modificaciones siguen haciendo que el proyecto sea factible en términos de tiempo, software, hardware, conocimiento y económico. Se recomienda optimizar el diseño de la interfaz para garantizar una experiencia de usuario fluida en la simulación de compra-venta.
-
