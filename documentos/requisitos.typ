@@ -22,7 +22,7 @@
   \
 ]
 #align(right)[
-  #datetime.today().display()
+  2025-03-21
 ]
 \
 #set heading(numbering: "1.")
@@ -40,7 +40,6 @@ La aplicación de Android consistirá en 3 ventanas (definidas más específicam
 
 = Requerimientos Funcionales
 - Los usuarios deberán poder moverse entre ventanas fácilmente (Todas las ventanas).
-- Los usuarios deberán poder copiar texto de la aplicación al portapapeles del sistema (Todas las ventanas).
 - Los usuarios deberán poder visualizar imágenes referentes al tema para mejorar su comprensión (Ventanas 1 y 2).
 
 = Interfaz Gráfica
